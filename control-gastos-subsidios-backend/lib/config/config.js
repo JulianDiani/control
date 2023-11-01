@@ -49,11 +49,11 @@ function normalizePort(val) {
 function initializeConfig() {
   const environment = getEnvironment();
   let dbConfig = {
-    username: process.env.SQL_USERNAME,
-    password: process.env.SQL_PASSWORD,
-    database: process.env.SQL_DATABASE,
-    host: process.env.SQL_HOST || 'localhost',
-    port: process.env.SQL_PORT || '5433',
+    username: postgres,
+    password: BA3D*b-G4debG11gDF6-4GCDA*4CfeB*,
+    database: railway,
+    host: viaduct.proxy.rlwy.net,
+    port: 50754,
     dialect: 'postgresql',
     logging: debug('sequelize'),
   };
@@ -67,7 +67,7 @@ function initializeConfig() {
   }
   return {
     db: dbConfig,
-    port: normalizePort(process.env.PORT || '3001'),
+    port: normalizePort(50754),
   };
 }
 
