@@ -49,10 +49,10 @@ function normalizePort(val) {
 function initializeConfig() {
   const environment = getEnvironment();
   let dbConfig = {
-    username: postgres,
-    password: BA3D*b-G4debG11gDF6-4GCDA*4CfeB*,
-    database: railway,
-    host: viaduct.proxy.rlwy.net,
+    username: 'postgres',
+    password: 'BA3D*b-G4debG11gDF6-4GCDA*4CfeB*',
+    database: 'railway',
+    host: 'viaduct.proxy.rlwy.net',
     port: 50754,
     dialect: 'postgresql',
     logging: debug('sequelize'),
