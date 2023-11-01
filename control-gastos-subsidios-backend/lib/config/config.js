@@ -67,7 +67,7 @@ function initializeConfig() {
   }
   return {
     db: dbConfig,
-    port: normalizePort(50754),
+    port: normalizePort(3001),
   };
 }
 
